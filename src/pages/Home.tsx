@@ -29,8 +29,6 @@ export function Home() {
     
     getItem.done = !getItem.done;
     setTasks(upTasks);
-    
-
   }
 
   function handleRemoveTask(id: number) {
